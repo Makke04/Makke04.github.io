@@ -1,0 +1,25 @@
+body{
+    font-family: sans-serif;
+    color:rgb(255, 255, 255);
+    }
+    
+    .myDiv {
+    padding:10px;
+    background-color:black;
+    height:50px
+    }
+    
+    .myDiv1{
+    padding:10px;
+    background-color:gray;
+    }
+    
+    
+    .myDiv2{
+     width:1905px;
+     height:30px;
+    background-color:gray;
+     }
+     
+ p{background-color: lightgray;
+margin-top: 0px;}
