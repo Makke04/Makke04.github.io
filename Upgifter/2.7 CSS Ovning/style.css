@@ -1,0 +1,42 @@
+body{
+    font-family: sans-serif;
+    color:rgb(255, 255, 255);
+    }
+    
+    .myDiv1{
+   
+    background-color:black;
+    margin-bottom: 15px;
+    }
+    
+    .myDiv2{
+    
+    background-color:rgb(70, 66, 66);
+    margin-bottom: 15px;
+    width:50%;
+    }
+    
+    
+    .myDiv3{
+     
+    background-color:gray;
+    margin-bottom: 15px;
+    width:25%;
+    } 
+
+
+    .myDiv4{ 
+
+    background-color: red;
+    margin-bottom: 15px;
+    width:500px;
+    
+    
+}
+
+    .myDiv5{ 
+    
+    background-color: blue;
+    margin-bottom: 15px;
+    width:250px;
+    }
