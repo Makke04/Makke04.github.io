@@ -1,0 +1,44 @@
+body{
+    font-family: sans-serif;
+    color:rgb(255, 255, 255);
+    }
+    
+    .myDiv1{
+
+    margin: 30px;
+    width: 200px ;
+    height: 50px;
+    background-color:black;
+    }
+    
+    .myDiv2{
+    
+    padding: 100;
+     width: 200px ;
+     height: 50px;
+    background-color: black;
+    
+    }
+    
+    
+    .myDiv3{
+     
+    border: 7px;
+    border-color: red;
+    border-style: solid;
+    width: 200px ;
+    height: 50px;
+    background-color:black;
+    } 
+
+
+    .myDiv4{ 
+    
+    border: 7px;
+    border-color: red;
+    border-style: solid;
+    margin-top: 15px;
+    width: 200px ;
+    height: 50px;
+    background-color: black;
+    }
