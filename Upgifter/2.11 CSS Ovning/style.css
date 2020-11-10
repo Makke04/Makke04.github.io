@@ -1,0 +1,28 @@
+body{
+    font-family: sans-serif;
+    margin: 0px;
+    color:rgb(255, 255, 255);
+    }
+    
+    .myDiv1{
+
+    width:100%;;
+    height:325px;
+    background-color:black;
+    }
+    
+    .myDiv2{
+    
+     width:100%;
+     height:325px;
+    background-color: red;
+    
+    }
+    
+    
+    .myDiv3{
+     
+    width:100%;
+    height:325px;
+    background-color:yellow;
+    } 
