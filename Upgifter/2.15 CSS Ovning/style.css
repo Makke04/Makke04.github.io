@@ -1,0 +1,36 @@
+body{
+    font-family: sans-serif;
+    margin: 0px;
+    color:rgb(255, 255, 255);
+    }
+    
+    .myDiv1{
+
+    width:50%;
+    height: auto;
+    background-color: blue;
+    margin-top: 33vh;
+    margin-bottom: 33vh;
+    }
+    
+    .myDiv2{
+    
+     width:50%;
+     height:100vh;
+    background-color:blue; 
+    
+    }
+    
+    
+    .myDiv3{
+     
+    width:100%;
+    height:auto;
+    background-color: blue;
+    margin-top: 33vh;
+    margin-bottom: 33vh;
+    } 
+    
+    .myDiv4{
+    display:flex;
+    }
