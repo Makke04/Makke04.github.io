@@ -1,0 +1,25 @@
+body{
+    font-family: sans-serif;
+    margin: 0px;
+    }
+
+
+    .myDiv1{
+
+    text-align: center;
+    justify-content: center;
+    }
+    
+
+    a {
+    text-decoration: none;
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 25px;
+    display: inline-block;
+    }
+    
+    a:hover {
+    background-color: red;
+    color:white;
+    }
