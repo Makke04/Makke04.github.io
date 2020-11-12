@@ -1,0 +1,29 @@
+body{
+    font-family: sans-serif;
+    margin: 0px;
+    color:rgb(255, 255, 255);
+    }
+
+
+    .myDiv1{
+
+    text-align: center;
+    justify-content: center;
+    color:black;
+    }
+    
+
+    .myDiv2{
+    
+    text-align: center;
+    justify-content: center;
+    color:black;
+     }
+
+    a:link{
+    text-decoration: none;
+    }
+
+    a:hover{
+    text-decoration: underline;
+    }
