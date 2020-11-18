@@ -1,0 +1,41 @@
+body{
+
+    background-color:  #cccbcb;
+    display:flex;
+    justify-content: center;
+    
+    }
+    
+    
+    .myDiv1 {
+    
+    box-shadow: 5px 5px 5px gray inset;
+    background-image: url(cow\ \(1\).jpg);
+    width: 300px;
+    height:300px;
+    background-color: white;
+    background-position: center;
+    background-size: 350px;
+    border-radius: 50%;
+    margin-top: 50px;
+    
+    
+    }
+
+    .myDiv2 {
+    
+    height: 800px;
+    width: 650px;
+    background-color: white;
+    background-position: center;
+    margin-top: 80px;
+    margin-left: 50px;
+    font-weight: lighter;
+    display:flex; flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    
+    
+    }
+
+    
