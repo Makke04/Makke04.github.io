@@ -1,0 +1,67 @@
+body {
+
+display:flex;
+justify-content: center;
+align-items: center;
+margin:0px;
+flex-direction: column;
+    
+}
+
+.Dog {
+
+background-image: url("dog.jpg");
+width: 600px;
+height: 250px;
+background-position: center;
+background-size: 350px;
+background-repeat: no-repeat;
+}
+
+
+
+.Cat {
+
+    background-image: url("cat.jpg");
+    width: 580px;
+    height: 250px;
+    background-position: center;
+    background-size: 350px;
+    background-repeat: no-repeat;
+    }
+
+    .box2 {
+        display: flex;
+        width: 700px;
+        height: 250px;
+        text-align: left;
+        border: lightgray 2px solid;
+        margin: 20px;
+        }
+        
+        
+
+
+.Cow {
+
+    background-image: url("cow.jpg");
+    width: 630px;
+    height: 250px;
+    background-position: center;
+    background-size: 350px;
+    background-repeat: no-repeat;
+    
+    }
+
+    
+        
+        
+        
+        
+
+
+
+            
+
+
+
