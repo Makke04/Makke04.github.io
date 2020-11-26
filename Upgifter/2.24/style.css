@@ -1,0 +1,71 @@
+body {
+
+display:flex;
+margin: 0px;   
+overflow: hidden;
+}
+
+.background {
+
+
+ background-image: url("background.jpg");
+ background-repeat: no-repeat;
+ background-size: 1900px;
+height: 1200px;
+width: 100%;
+display: flex;
+justify-content: center;
+}
+
+.topbar {
+
+background-image: url("forza\ horizon\ 4.jpg");
+background-size: 300px;
+font-size: 40px;
+background-color: black;
+color: white;
+background-repeat: no-repeat; 
+height: 30%;
+width: 90%;
+text-align: center;
+flex-direction: column;
+justify-content: center;
+display: flex;
+}  
+    
+.box1 {
+
+display:flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+.text {
+
+    color: black;
+    position: absolute;
+    width: 82.3%;
+	bottom: 200px;
+    font-size: 40px;
+    border: 30px solid black;
+    padding: 43px;  
+    
+}
+
+a {
+    text-decoration: none;
+    border: 2px solid green;
+    padding: 10px;
+    border-radius: 20px;
+    display: inline-block;
+     color:white;
+    }
+
+
+    a:hover {
+        background-color: green;
+        color:white;
+        }
+    
