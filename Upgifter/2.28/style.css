@@ -1,0 +1,73 @@
+body {
+
+font-family: sans-serif;
+display:flex;
+margin: 0px;
+text-align: center;
+justify-content: center;
+     
+}
+
+.Desktop {
+
+font-size: 25px;
+
+
+}
+
+.Tablet {
+
+display: none;
+font-size: 25px;
+}
+
+.Mobile {
+
+display:none;
+font-size: 25px;
+
+}
+
+
+@media screen and (max-width: 900px) {
+    .Desktop {
+        background-color: white;
+        display: none;
+    }
+
+    .Tablet {
+
+        background-color: white;
+        display: unset;
+        
+       
+        
+    
+        }
+
+    
+}
+    
+
+@media screen and (max-width: 500px) {
+
+    .Mobile {
+
+     background-color: white;
+     display: unset;
+    
+    }
+
+    .Tablet {
+
+        background-color: white;
+        
+        display: none;
+       
+        
+    
+        }
+
+
+}
+
