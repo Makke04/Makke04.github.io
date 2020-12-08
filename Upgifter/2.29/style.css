@@ -1,0 +1,42 @@
+body {
+
+    font-family: sans-serif;
+    display:flex;
+    margin: 0px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+
+.rubrik {
+
+    font-size: 30px;
+    
+    
+
+
+}
+
+
+.text {
+
+text-align: center;
+font-size: 20px;
+}
+
+
+.image {
+
+background-image: url("kobe.jpg");
+background-position: center;
+background-repeat: no-repeat;
+
+
+
+}
+
+h2 {
+
+font-size: 40px;
+}
