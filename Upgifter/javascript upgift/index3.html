@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    
+
+<button id="plusbutton">+1</button>
+<h1 id="output">0</h1>
+<button id="minusbutton">-1</button>
+
+
+
+<script>
+    
+let outputElement = document.getElementById("output"); 
+let minusbutton = document.getElementById("minusbutton");
+let plusbutton = document.getElementById("plusbutton");
+
+
+let count = 0;
+
+outputElement.innerHTML = count;
+
+plusbutton.addEventListener("click", onPlusCliked)
+minusbutton.addEventListener("click", onMinusClicked);
+
+
+function onMinusClicked() {
+  // count = count - 1;
+  // count -= 1;
+  count--;
+  outputElement.innerHTML = count;
+}
+
+function onPlusCliked() {
+
+ // count = count + 1;
+  // count += 1;
+  count++;
+  outputElement.innerHTML = count;
+
+}
+
+</script>
+    
+</body>
+</html>

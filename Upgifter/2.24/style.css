@@ -14,7 +14,8 @@ overflow: hidden;
 height: 1200px;
 width: 100%;
 display: flex;
-justify-content: center;
+align-items: center;
+flex-direction: column;
 }
 
 .topbar {
@@ -45,12 +46,10 @@ align-items: center;
 .text {
 
     color: black;
-    position: absolute;
-    width: 82.3%;
-	bottom: 200px;
+    width: 83%;
     font-size: 40px;
     border: 30px solid black;
-    padding: 43px;  
+    padding: 2%;  
     
 }
 
