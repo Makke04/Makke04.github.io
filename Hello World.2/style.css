@@ -1,14 +1,17 @@
-body {
+* {
 
-background-color: blueviolet;
-margin-top: 400px;
-text-align: center;
-align-items: center;
-}
-
-h1 {
-
-font-size: 9vw;
-font-family: sans-serif;
+margin: 0;
 
 }
+
+.parent {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+    width: 100vw;
+    height: 100vh;
+    background-color: blueviolet;
+}
+
