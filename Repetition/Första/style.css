@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.container{
+    display: flex;
+    height: 500px;
+    background-color: cyan;
+    width: 100vw;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.Box{
+    
+    width: 75vw;
+    height: 100%;
+    font-family: cursive;
+    
+}
+
+.Box2{
+
+    width: 75vw;
+    font-family: cursive;
+    background-color: lime;
+    height: 100%;
+}
+
+.Box3{
+
+    background-color: rgb(163, 3, 163);
+    font-family: cursive;
+    height: 100%;
+}
