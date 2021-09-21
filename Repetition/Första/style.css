@@ -1,37 +1,164 @@
 *{
-    padding: 0;
     margin: 0;
-    
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .container{
+
+    height: 120px;
+}
+
+.header{
+
     display: flex;
-    height: 500px;
-    background-color: cyan;
+    height: 120px;
+}
+
+.right{
+
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+}
+
+.kontakt {
+
+    height: 27px;
+    width: 80px;
+    background-color: #bbc04b;
+    font-size: 1.125rem;
+    border-bottom-left-radius: 8px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.sok{
+
+    background-color: rgb(209, 213, 134);
+    padding: 0px 0px 0px 8px;
+height: 27px;
+width: 192px;
+font-size: 1.2rem;
+border-bottom-left-radius: 8px;
+font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.sprok{
+    background-color: black;
+color: white;
+font-size: 1.3rem;
+width:213px ;
+height: 27px;
+border-bottom-left-radius: 8px;
+}
+
+
+.mitten{
+
+    height: 76vh;
     width: 100vw;
-    border: 5px solid black;
-    border-radius: 10px;
-}
-
-.Box{
-    
-    width: 75vw;
-    height: 100%;
-    font-family: cursive;
+    background-size: 100vw auto;
+    background-image: url(./optimabanner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
     
 }
 
-.Box2{
+.footer{
 
-    width: 75vw;
-    font-family: cursive;
-    background-color: lime;
-    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    font-family: 'Roboto Condensed', sans-serif;
+
 }
 
-.Box3{
+.item1{
 
-    background-color: rgb(163, 3, 163);
-    font-family: cursive;
-    height: 100%;
+
+    height: 60px;
+    width: 33vw;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(255, 123, 0);
+    
 }
+
+.item2{
+
+    height: 60px;
+    width: 34vw;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(248, 151, 63);
+}
+
+.item3{
+
+    height: 60px;
+    width: 33vw;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(250, 171, 99);
+}
+
+.item4{
+
+    
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(252, 203, 159);
+}
+
+.item5{
+
+    
+    height: 60px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: rgb(253, 222, 195);
+}
+
+.Text{
+
+    font-size: 24px;
+    margin-left: 10px;
+    width: 1300px;
+    margin-top: 50px;
+
+}
+
+.text2{
+
+    margin-top: 220px;
+    margin-left: 50px;
+    font-size: 6rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
