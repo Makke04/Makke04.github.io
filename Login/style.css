@@ -9,6 +9,7 @@ body
 
     background-image: url(bbackground.jpg);
     background-repeat: no-repeat; 
+    font-family: sans-serif;
     background-size: 220vh;
     margin-top: 200px; 
      
