@@ -1,0 +1,10 @@
+body {
+    background-color: cyan;
+    text-align: center;
+    margin-top: 500px;
+}
+
+.word{
+    list-style: none;
+    
+}
